@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="navigator-link">
+              <span class="suite-name border-failed">Login, Forgot password, and Create an account page test cases suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="navigator-link ">
+                    <span>D:\QA\qa-workspace\CombyneExam\src\test\resources\TestCasesExecution.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="hide-methods failed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite"> (hide)</a> <!-- hide-methods failed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite -->
+                      <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="show-methods failed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite"> (show)</a> <!-- show-methods failed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="createAnAccountWithInvalidEmailTest">createAnAccountWithInvalidEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="hide-methods passed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite"> (hide)</a> <!-- hide-methods passed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite -->
+                      <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="show-methods passed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite"> (show)</a> <!-- show-methods passed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="createAnAccountLinkNavigationTest">createAnAccountLinkNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="createAnAccountWithValidCredentialsButUserAlreadyCreatedTest">createAnAccountWithValidCredentialsButUserAlreadyCreatedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="createAnAccountWithValidCredentialsTest">createAnAccountWithValidCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="forgotPasswordLinkNavigationTest">forgotPasswordLinkNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.ForgotPasswordTest" class="method navigator-link" hash-for-method="forgotPasswordWithInvalidCredentialsTest">forgotPasswordWithInvalidCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.ForgotPasswordTest" class="method navigator-link" hash-for-method="forgotPasswordWithValidCredentialsButNotCombyneUserTest">forgotPasswordWithValidCredentialsButNotCombyneUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.ForgotPasswordTest" class="method navigator-link" hash-for-method="forgotPasswordWithValidCredentialsTest">forgotPasswordWithValidCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.ForgotPasswordTest" class="method navigator-link" hash-for-method="forgotPasswordWithoutCredentialsTest">forgotPasswordWithoutCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.ForgotPasswordTest" class="method navigator-link" hash-for-method="loginPageLinkNavigationTest">loginPageLinkNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="loginPageLinkNavigationTest">loginPageLinkNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginWithEmptyCredentialsTest">loginWithEmptyCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginWithInvalidCredentialsTest">loginWithInvalidCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginWithValidCredentialsButNotCombyneUserTest">loginWithValidCredentialsButNotCombyneUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginWithValidCredentialsTest">loginWithValidCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="privacyPolicyLinkNavigationTest">privacyPolicyLinkNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" title="tests.CreateAccountTest" class="method navigator-link" hash-for-method="termsOfUseLinkNavigationTest">termsOfUseLinkNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="panel Login__Forgot_password__and_Create_an_account_page_test_cases_suite">
+          <div class="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAnAccountWithInvalidEmailTest">
+                  </a> <!-- createAnAccountWithInvalidEmailTest -->
+                  <span class="method-name">createAnAccountWithInvalidEmailTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [The provided email is invalid !!] but found [The provided email is invalid.]
+	at tests.CreateAccountTest.createAnAccountWithInvalidEmailTest(CreateAccountTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_CBN_CAA_05: Verify Create an account functionality with invalid email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite-class-failed -->
+          <div class="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAnAccountLinkNavigationTest">
+                  </a> <!-- createAnAccountLinkNavigationTest -->
+                  <span class="method-name">createAnAccountLinkNavigationTest</span>
+                  <em>
+(TC_CBN_LOGIN_12: Verify Create an account navigation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordLinkNavigationTest">
+                  </a> <!-- forgotPasswordLinkNavigationTest -->
+                  <span class="method-name">forgotPasswordLinkNavigationTest</span>
+                  <em>
+(TC_CBN_LOGIN_11: Verify Forgot password navigation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithEmptyCredentialsTest">
+                  </a> <!-- loginWithEmptyCredentialsTest -->
+                  <span class="method-name">loginWithEmptyCredentialsTest</span>
+                  <em>
+(TC_CBN_LOGIN_02: Verify login system without providing username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidCredentialsTest">
+                  </a> <!-- loginWithInvalidCredentialsTest -->
+                  <span class="method-name">loginWithInvalidCredentialsTest</span>
+                  <em>
+(TC_CBN_LOGIN_05: Verify login system providing invaid username and invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentialsButNotCombyneUserTest">
+                  </a> <!-- loginWithValidCredentialsButNotCombyneUserTest -->
+                  <span class="method-name">loginWithValidCredentialsButNotCombyneUserTest</span>
+                  <em>
+(TC_CBN_LOGIN_07: Verify login system providing vaid username and valid password but not Combyne User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentialsTest">
+                  </a> <!-- loginWithValidCredentialsTest -->
+                  <span class="method-name">loginWithValidCredentialsTest</span>
+                  <em>
+(TC_CBN_LOGIN_06: Verify login system providing valid username and valid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite-class-passed -->
+          <div class="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ForgotPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordWithInvalidCredentialsTest">
+                  </a> <!-- forgotPasswordWithInvalidCredentialsTest -->
+                  <span class="method-name">forgotPasswordWithInvalidCredentialsTest</span>
+                  <em>
+(TC_CBN_FP_03: Verify Forgot password functionality providing invalid email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordWithValidCredentialsButNotCombyneUserTest">
+                  </a> <!-- forgotPasswordWithValidCredentialsButNotCombyneUserTest -->
+                  <span class="method-name">forgotPasswordWithValidCredentialsButNotCombyneUserTest</span>
+                  <em>
+(TC_CBN_FP_05: Verify Forgot password functionality providing valid email but not a combyne application member)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordWithValidCredentialsTest">
+                  </a> <!-- forgotPasswordWithValidCredentialsTest -->
+                  <span class="method-name">forgotPasswordWithValidCredentialsTest</span>
+                  <em>
+(TC_CBN_FP_04: Verify Forgot password functionality providing valid email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordWithoutCredentialsTest">
+                  </a> <!-- forgotPasswordWithoutCredentialsTest -->
+                  <span class="method-name">forgotPasswordWithoutCredentialsTest</span>
+                  <em>
+(TC_CBN_FP_02: Verify Forgot password functionality without providing email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageLinkNavigationTest">
+                  </a> <!-- loginPageLinkNavigationTest -->
+                  <span class="method-name">loginPageLinkNavigationTest</span>
+                  <em>
+(TC_CBN_FP_06: Verify Back to login navigation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite-class-passed -->
+          <div class="suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAnAccountWithValidCredentialsButUserAlreadyCreatedTest">
+                  </a> <!-- createAnAccountWithValidCredentialsButUserAlreadyCreatedTest -->
+                  <span class="method-name">createAnAccountWithValidCredentialsButUserAlreadyCreatedTest</span>
+                  <em>
+(TC_CBN_CAA_04: Verify Create an account functionality with existing user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAnAccountWithValidCredentialsTest">
+                  </a> <!-- createAnAccountWithValidCredentialsTest -->
+                  <span class="method-name">createAnAccountWithValidCredentialsTest</span>
+                  <em>
+(TC_CBN_CAA_03: Verify Create an account functionality valid inputs firstname, lastname, and email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageLinkNavigationTest">
+                  </a> <!-- loginPageLinkNavigationTest -->
+                  <span class="method-name">loginPageLinkNavigationTest</span>
+                  <em>
+(TC_CBN_CAA_08: Verify Login page navigation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="privacyPolicyLinkNavigationTest">
+                  </a> <!-- privacyPolicyLinkNavigationTest -->
+                  <span class="method-name">privacyPolicyLinkNavigationTest</span>
+                  <em>
+(TC_CBN_CAA_07: Verify Privacy policy navigation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="termsOfUseLinkNavigationTest">
+                  </a> <!-- termsOfUseLinkNavigationTest -->
+                  <span class="method-name">termsOfUseLinkNavigationTest</span>
+                  <em>
+(TC_CBN_CAA_06: Verify Terms of use navigation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login__Forgot_password__and_Create_an_account_page_test_cases_suite-class-passed -->
+        </div> <!-- panel Login__Forgot_password__and_Create_an_account_page_test_cases_suite -->
+        <div panel-name="test-xml-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA\qa-workspace\CombyneExam\src\test\resources\TestCasesExecution.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Login, Forgot password, and Create an account page test cases suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Login page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login page test cases --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Forgot password page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ForgotPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Forgot password page test cases --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Create an account page test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CreateAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create an account page test cases --&gt;
+&lt;/suite&gt; &lt;!-- Login, Forgot password, and Create an account page test cases suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login, Forgot password, and Create an account page test cases suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Forgot password page test cases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create an account page test cases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login, Forgot password, and Create an account page test cases suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login, Forgot password, and Create an account page test cases suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login__Forgot_password__and_Create_an_account_page_test_cases_suite');
+function tableData_Login__Forgot_password__and_Create_an_account_page_test_cases_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createAnAccountWithInvalidEmailTest')
+data.setCell(0, 2, 'tests.CreateAccountTest')
+data.setCell(0, 3, 8592);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'privacyPolicyLinkNavigationTest')
+data.setCell(1, 2, 'tests.CreateAccountTest')
+data.setCell(1, 3, 8512);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'termsOfUseLinkNavigationTest')
+data.setCell(2, 2, 'tests.CreateAccountTest')
+data.setCell(2, 3, 7627);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'forgotPasswordWithValidCredentialsTest')
+data.setCell(3, 2, 'tests.ForgotPasswordTest')
+data.setCell(3, 3, 5212);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createAnAccountWithValidCredentialsTest')
+data.setCell(4, 2, 'tests.CreateAccountTest')
+data.setCell(4, 3, 5178);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createAnAccountLinkNavigationTest')
+data.setCell(5, 2, 'tests.LoginTest')
+data.setCell(5, 3, 5091);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginWithInvalidCredentialsTest')
+data.setCell(6, 2, 'tests.LoginTest')
+data.setCell(6, 3, 4870);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createAnAccountWithValidCredentialsButUserAlreadyCreatedTest')
+data.setCell(7, 2, 'tests.CreateAccountTest')
+data.setCell(7, 3, 4043);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginPageLinkNavigationTest')
+data.setCell(8, 2, 'tests.ForgotPasswordTest')
+data.setCell(8, 3, 4027);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginWithValidCredentialsTest')
+data.setCell(9, 2, 'tests.LoginTest')
+data.setCell(9, 3, 3918);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginWithValidCredentialsButNotCombyneUserTest')
+data.setCell(10, 2, 'tests.LoginTest')
+data.setCell(10, 3, 3801);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'forgotPasswordWithValidCredentialsButNotCombyneUserTest')
+data.setCell(11, 2, 'tests.ForgotPasswordTest')
+data.setCell(11, 3, 3436);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'forgotPasswordWithoutCredentialsTest')
+data.setCell(12, 2, 'tests.ForgotPasswordTest')
+data.setCell(12, 3, 3433);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginPageLinkNavigationTest')
+data.setCell(13, 2, 'tests.CreateAccountTest')
+data.setCell(13, 3, 3270);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginWithEmptyCredentialsTest')
+data.setCell(14, 2, 'tests.LoginTest')
+data.setCell(14, 3, 3181);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'forgotPasswordWithInvalidCredentialsTest')
+data.setCell(15, 2, 'tests.ForgotPasswordTest')
+data.setCell(15, 3, 2599);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'forgotPasswordLinkNavigationTest')
+data.setCell(16, 2, 'tests.LoginTest')
+data.setCell(16, 3, 2166);
+window.suiteTableData['Login__Forgot_password__and_Create_an_account_page_test_cases_suite']= { tableData: data, tableDiv: 'times-div-Login__Forgot_password__and_Create_an_account_page_test_cases_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Login__Forgot_password__and_Create_an_account_page_test_cases_suite">
+              </div> <!-- times-div-Login__Forgot_password__and_Create_an_account_page_test_cases_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login, Forgot password, and Create an account page test cases suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login__Forgot_password__and_Create_an_account_page_test_cases_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createAnAccountLinkNavigationTest</span>
+                <span class="method-start">11608 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAnAccountWithInvalidEmailTest</span>
+                <span class="method-start">12976 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordWithInvalidCredentialsTest</span>
+                <span class="method-start">13872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">16476 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">16701 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17981 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18076 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">21576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25271 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordWithValidCredentialsButNotCombyneUserTest</span>
+                <span class="method-start">28282 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordLinkNavigationTest</span>
+                <span class="method-start">28391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">30564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">31721 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32069 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33038 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createAnAccountWithValidCredentialsButUserAlreadyCreatedTest</span>
+                <span class="method-start">34588 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithEmptyCredentialsTest</span>
+                <span class="method-start">38265 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">38634 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordWithValidCredentialsTest</span>
+                <span class="method-start">40502 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41301 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">41447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42409 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">45716 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createAnAccountWithValidCredentialsTest</span>
+                <span class="method-start">47624 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidCredentialsTest</span>
+                <span class="method-start">48475 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48858 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">52805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">53347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54457 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54457 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordWithoutCredentialsTest</span>
+                <span class="method-start">55409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">58843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60068 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageLinkNavigationTest</span>
+                <span class="method-start">63442 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidCredentialsButNotCombyneUserTest</span>
+                <span class="method-start">63459 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">66714 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageLinkNavigationTest</span>
+                <span class="method-start">67249 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">67261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">68245 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">68290 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">71277 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidCredentialsTest</span>
+                <span class="method-start">74709 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">privacyPolicyLinkNavigationTest</span>
+                <span class="method-start">75222 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">78629 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">83736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">84656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">termsOfUseLinkNavigationTest</span>
+                <span class="method-start">88611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">detach</span>
+                <span class="method-start">96247 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

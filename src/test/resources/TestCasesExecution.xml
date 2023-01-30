@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login, Forgot password, and Create an account page test cases suite">
+	 <listeners>
+		<listener class-name="reports.ITestReportListener"></listener>
+	</listeners> 
+	<test name="Login page test">
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+	<test name="Forgot password page test cases">
+		<classes>
+			<class name="tests.ForgotPasswordTest" />
+		</classes>
+	</test>
+	<test name="Create an account page test cases">
+		<classes>
+			<class name="tests.CreateAccountTest" />
+		</classes>
+	</test>
+	
+</suite> <!-- All -->
